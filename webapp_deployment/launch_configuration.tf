@@ -11,9 +11,7 @@ EOF
 
   security_groups = [aws_security_group.application_server_security_group.id]
 
-  key_name = "testinstance-rsa"
-
-
+  key_name = "iouri_key"
 
   lifecycle {
     create_before_destroy = true
