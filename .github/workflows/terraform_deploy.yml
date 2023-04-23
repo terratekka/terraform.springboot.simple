@@ -1,8 +1,6 @@
 
 name: Deploy application with Terraform
 
-
-
 on:
   release:
     types: [published]

@@ -8,16 +8,12 @@ module "app" {
     backend_port = 8080
     subnets = [
     {
-      az     = "us-west-2a",
+      az     = "eu-central-1a",
       prefix = "10.1.1.0/24"
     },
     {
-      az     = "us-west-2b",
+      az     = "eu-central-1b",
       prefix = "10.1.2.0/24"
-    },
-    {
-      az     = "us-west-2c",
-      prefix = "10.1.3.0/24"
     }
   ]
 }
