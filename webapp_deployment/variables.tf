@@ -38,7 +38,7 @@ variable "frontend_port" {
 }
 
 variable "backend_port" {
-  default = 8000
+  default = 8080
 }
 
 variable "autoscaling" {
