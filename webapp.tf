@@ -1,9 +1,9 @@
 module "app" {
     source = "./webapp_deployment"
     application_name = "example-webapp"
-    application_version = "c341f5c"
-    artifact_bucket = "aston-lecture.springboot.simple-artifacts-west"
-    worker_ami = "ami-0abfe55c2cc86d5ad"
+    application_version = "6dc84e8"
+    artifact_bucket = "iouri-aws-bucket"
+    worker_ami = "ami-0ec7f9846da6b0f61"
     instance_profile = "allow_s3_ec2_github_demo"
     backend_port = 8080
     subnets = [
