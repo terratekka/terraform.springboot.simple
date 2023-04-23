@@ -6,12 +6,12 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "aston-lecture.springboot.simple-tf-remote-state"
+    bucket = "iouri-aws-bucket"
     key    = "terraform.tfstate"
-    region = "us-east-2"
+    region = "eu-central-1"
   }
 }
 
 provider "aws" {
-  region = "us-west-2"
+  region = "eu-central-1"
 }

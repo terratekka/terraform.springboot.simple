@@ -1,7 +1,7 @@
 module "app" {
     source = "./webapp_deployment"
     application_name = "example-webapp"
-    application_version = "6dc84e8"
+    application_version = "3c12059"
     artifact_bucket = "iouri-aws-bucket"
     worker_ami = "ami-0ec7f9846da6b0f61"
     instance_profile = "allow_s3_ec2_github_demo"

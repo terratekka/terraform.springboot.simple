@@ -22,7 +22,7 @@ public class SimpleController {
         return ResponseEntity.ok(res);
     }
 
-    @GetMapping("/aston")
+    @GetMapping("/iouri")
     public ResponseEntity<String> randomAscii() {
         return ResponseEntity.ok(generateRandomAscii(10000));
     }
